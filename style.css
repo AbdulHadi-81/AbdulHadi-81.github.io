@@ -267,3 +267,42 @@ footer .wrap {
   padding: 3px 10px;
   margin: 0 6px 6px 0;
 }
+
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 480px;
+  margin-top: 20px;
+}
+.contact-form label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  margin-top: 12px;
+}
+.contact-form input,
+.contact-form textarea {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: #FFFFFF;
+  color: var(--ink);
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+.contact-form button {
+  margin-top: 16px;
+  align-self: flex-start;
+  cursor: pointer;
+  background: var(--accent);
+  border: none;
+}
