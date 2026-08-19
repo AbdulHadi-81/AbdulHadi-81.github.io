@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap');
 
 :root {
   --bg: #F7F4EC;
   --ink: #1D2939;
   --muted: #626C79;
   --line: #DAD3C2;
-  --accent: #D2622F;
+  --accent: #9E3B0E;
   --panel: #FFFFFF;
   --max: 880px;
 }
@@ -139,7 +138,7 @@ nav.site-nav .wrap {
   border-color: var(--accent);
   color: white;
 }
-.btn.primary:hover { background: #b74f22; border-color: #b74f22; }
+.btn.primary:hover { background: #84300A; border-color: #84300A; }
 
 .cta-row { display: flex; gap: 14px; margin-top: 28px; flex-wrap: wrap; }
 
